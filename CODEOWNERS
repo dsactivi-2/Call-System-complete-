@@ -1,0 +1,26 @@
+# =============================================================================
+# CODEOWNERS – Automatic review requests
+# =============================================================================
+# Each line assigns ownership to path patterns.
+# The last matching rule wins.
+# Docs: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owner for everything
+*                           @dsactivi-2
+
+# Application code – always require @dsactivi-2 review
+/apps/                      @dsactivi-2
+/services/                  @dsactivi-2
+
+# Infrastructure changes
+/infra/                     @dsactivi-2
+
+# GitHub configuration and workflows
+/.github/                   @dsactivi-2
+
+# Documentation
+/docs/                      @dsactivi-2
+
+# Governance & compliance docs
+CONTRIBUTING.md             @dsactivi-2
+/docs/compliance.md         @dsactivi-2
